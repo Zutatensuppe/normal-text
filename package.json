@@ -1,6 +1,6 @@
 {
   "name": "@zutatensuppe/normal-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "convert 'aesthetic' text into normal text",
   "main": "./dist/normal_text.js",
   "module": "./dist/normal_text.mjs",
