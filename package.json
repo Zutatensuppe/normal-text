@@ -1,0 +1,32 @@
+{
+  "name": "@zutatensuppe/normal-text",
+  "version": "1.0.1",
+  "description": "convert 'aesthetic' text into normal text",
+  "main": "./dist/normal_text.js",
+  "module": "./dist/normal_text.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/normal_text.cjs",
+      "import": "./dist/normal_text.mjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "vite build && tsc --declaration --emitDeclarationOnly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zutatensuppe/normal-text.git"
+  },
+  "author": "Zutatensuppe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zutatensuppe/normal-text/issues"
+  },
+  "homepage": "https://github.com/Zutatensuppe/normal-text#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vitest": "^0.27.1"
+  }
+}
